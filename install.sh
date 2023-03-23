@@ -1,7 +1,5 @@
 git clone https://github.com/SteavenBuntu/SteavenBuntu-Wallpapers 
-cd SteavenBuntu-Wallpapers 
-cd JPG
-sudo cp *.jpg /usr/share/backgrounds
-cd ..
-cd SteavenBuntu-Wallpapers 
-sudo cp wallpapers.xml /usr/share/gnome-background-properties/
+sudo cp SteavenBuntu-Wallpapers/JPG/*.jpg /usr/share/backgrounds
+sudo rm -rf /usr/share/gnome-background-properties
+sudo mkdir /usr/share/gnome-background-properties
+sudo cp SteavenBuntu-Wallpapers/wallpapers.xml /usr/share/gnome-background-properties/
