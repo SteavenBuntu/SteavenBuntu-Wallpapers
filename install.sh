@@ -1,3 +1,4 @@
 git clone https://github.com/SteavenBuntu/SteavenBuntu-Wallpapers 
 cd SteavenBuntu-Wallpapers 
-sudo cp -r PNG /usr/share/backgrounds
+cd PNG
+sudo cp *.png /usr/share/backgrounds
