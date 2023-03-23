@@ -3,4 +3,5 @@ cd SteavenBuntu-Wallpapers
 cd PNG
 sudo cp *.png /usr/share/backgrounds
 cd ..
+cd SteavenBuntu-Wallpapers 
 cp wallpapers.xml /usr/share/gnome-background-properties/
